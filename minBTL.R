@@ -1,3 +1,4 @@
+#minimum backtest length
 minBTL<- function(Emax=1.0,N) {
 	
 	gama<-0.5772156649		#Euler-Mascheroni constant
@@ -6,6 +7,7 @@ minBTL<- function(Emax=1.0,N) {
 	
 }
 
+#the shell of minBTL
 minBTLcon<- function(Emax=1.0,N) {
 	minBTLcon<-2*log(N)/Emax
   minBTLcon
