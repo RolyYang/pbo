@@ -39,6 +39,7 @@ pbo <- function(m,s=4,f=Omega,threshold=0,inf_sub=6,allow_parallel=FALSE) {
     # r_bar <- mapply(f,j_bar)
     r <- f(as.ts(j))
     r_bar <- f(j_bar)
+	  
     
     # compute n* by argmax over R vector
     n_star <- which.max(r)
