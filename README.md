@@ -3,7 +3,6 @@
 
 #Trading methods tested are frequency arbitrage trading and seasonal trading.
 
-#By:
-#Xiaoyi Yang
-#Zhongyuan Bi
+By:
+Xiaoyi Yang, Zhongyuan Bi
 
